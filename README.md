@@ -1,3 +1,11 @@
+> 📌 This is a modified version of the [PacificBiosciences/HiFi-16S-workflow](https://github.com/benson1231/HiFi-16S-workflow) pipeline as of 2025/06/30, intended solely for learning and documentation purposes.  
+> The original project was developed by the [PacificBiosciences/HiFi-16S-workflow team](https://github.com/benson1231/HiFi-16S-workflow/graphs/contributors) and is licensed under the BSD 3-Clause Clear License.
+
+> 📌 本專案為 [PacificBiosciences/HiFi-16S-workflow](https://github.com/benson1231/HiFi-16S-workflow) 之修改版本，修改時間為 2025/06/30，僅供學習與紀錄使用。  
+> 原始專案由 [PacificBiosciences/HiFi-16S-workflow 團隊](https://github.com/benson1231/HiFi-16S-workflow/graphs/contributors) 開發，採 BSD 3-Clause Clear License 授權。
+
+---
+
 # HiFi Full-length 16S analysis with pb-16S-nf
 
 - Table of Contents
@@ -145,7 +153,7 @@ nextflow run main.nf --input test_data/test_sample.tsv \
 
 # To test using Singularity or docker (change singularity to docker)
 nextflow run main.nf --input test_data/test_sample.tsv \
-    --metadata test_data/test_metadata.tsv -profile singularity \
+    --metadata test_data/test_metadata.tsv -profile docker \
     --outdir results
 ```
 

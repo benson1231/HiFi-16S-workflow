@@ -1,0 +1,6 @@
+/results
+/.nextflow
+/databases
+/work
+.*
+!.gitignore
